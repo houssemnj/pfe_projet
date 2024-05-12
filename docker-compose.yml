@@ -1,0 +1,13 @@
+
+version: "3.9"
+
+services:
+  pfe_projet:
+    image: ghcr.io/houssemnj/pfe_projet/pfe_projet-${deployment_environment}:${tag}
+    container_name: pfe_projet-${deployment_environment}
+    restart: always
+    build: 
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - "${external_port}:5555"
