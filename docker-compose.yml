@@ -10,4 +10,4 @@ services:
       context: .
       dockerfile: ./Dockerfile
     ports:
-      - "${external_port}:3000"
+      - "${external_port}:5555"
