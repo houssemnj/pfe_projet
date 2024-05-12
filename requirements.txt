@@ -2,17 +2,14 @@ attrs==21.2.0
 Babel==2.8.0
 bcrypt==3.2.0
 blinker==1.7.0
-certifi==2020.6.20
 cffi==1.16.0
 chardet==4.0.0
 click==8.1.7
-cmdtest==0.32+git
 colorama==0.4.4
 cryptography==3.4.8
 cx_Freeze==7.0.0
 defer==1.0.6
 distro==1.7.0
-distro-info==1.1+ubuntu0.2
 dnspython==2.6.1
 docker==5.0.3
 docker-compose==1.29.2
