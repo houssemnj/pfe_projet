@@ -1,5 +1,5 @@
 
 ### Docker Environment ###
 deployment_environment=dev
-external_port=12121
+external_port=51220
 tag=<tag>
